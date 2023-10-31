@@ -13,16 +13,42 @@
         android:theme="@style/Theme.Coyote"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+            android:name=".Home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Coyote.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name=".RegistroUsuarios"
             android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".LoginUsuarios"
+            android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            
+        </activity>
+
+        <activity
+            android:name=".Intent2"
+            android:exported="false" />
+        <activity
+            android:name=".Intent1"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 
